@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stefano D'Antoni</title>
+    <link rel="icon" sizes="16x16" href="./assets/img/favicon16.png" type="image/png" />
+    <link rel="icon" sizes="32x32" href="./assets/img/favicon32.png" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-sm bg-black fixed-top text-white">
+        <div class="container-fluid">
+          <!--<h5 class="waviy" data-aos="fade-right">D'Antoni Stefano <span>Full-Stack Developer</span></h5>-->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"data-aos="fade-left">
+              <li class="nav-item">
+                <a class="nav-link me-4 " aria-current="page" href="#aboutme">SU DI ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="#resu-me">RIASSUMENDO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-4" href="#portfol-io">PORTFOLIO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="progress-bar"></div>
+      </nav>
+
+
+      <!-- ABOUT -->
+      <section class="container-fluid mt-5">
+        <div class="row align-items-center d-flex flex-nowrap">
+          <!-- COL ICONE SOCIAL -->
+          <div class="col-2">
+            <p>
+              <a
+                target="_blank"
+                class="nav-link d-flex align-items-center"
+                href="https://www.linkedin.com/in/stefano-dantoni/">
+                <i class="bi bi-linkedin fs-4 me-2"data-aos="fade-right"></i>
+                <span class="text-lawngreen typewriter-effect d-none d-lg-block">LINKEDIN</span>
+              </a>
+            </p>
+            <p>
+              <a target="_blank" class="nav-link d-flex align-items-center" href="https://github.com/StefanoEpicoder">
+                <i class="bi bi-github fs-4 me-2"data-aos="fade-right"></i>
+                <span class="text-lawngreen typewriter-effect d-none d-lg-block">GITHUB</span>
+              </a>
+            </p>
+
+            <p>
+              <a
+                class="nav-link d-flex align-items-center"
+                target="_blank"
+                href="https://wa.me/+39351593492?text=Ciao%20Stefano,%20sono%20interessato%20al%20tuo%20portfolio."
+              >
+                <i class="bi bi-whatsapp fs-4 me-2"data-aos="fade-right"></i>
+                <span class="text-lawngreen typewriter-effect d-none d-lg-block">WHATSAPP</span>
+              </a>
+            </p>
+
+            <p>
+              <a
+                class="nav-link d-flex align-items-center"
+                target="_blank"
+                href="mailto:dantoni.stefano@libero.it?subject=Interesse%20nel%20tuo%20Portfolio&body=Ciao%20Stefano,%0D%0A%0D%0AMi%20sono%20imbattuto%20nel%20tuo%20portfolio%20online%20e%20sono%20rimasto%20davvero%20colpito%20dal%20tuo%20lavoro.%20Sarei%20interessato%20a%20saperne%20di%20più%20sui%20tuoi%20progetti%20e%20a%20discutere%20eventuali%20opportunità%20di%20collaborazione.%20Potresti%20avere%20tempo%20per%20una%20chiacchierata?"
+              >
+                <i class="bi bi-envelope-fill fs-4 me-2"data-aos="fade-right"></i>
+                <span class="text-lawngreen typewriter-effect d-none d-lg-block">E-MAIL</span>
+              </a>
+            </p>
+          </div>
+          <!-- COL SEZ PRINCIPALE -->
+
+          <div class="container">
+            <div class="d-block row justify-content-center">
+                <div class="">
+                    <h1 class="name" data-aos="zoom-in">Stefano D'Antoni</h1>
+                    <h3 class="disappear" data-aos="zoom-in"><span>F</span><span>u</span><span>l</span><span>l</span>
+                        <span></span><span>S</span><span>t</span><span>a</span><span>c</span><span>k</span><span> </span>
+                        <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        </div>
+      </section>
+      <br>
+      
+
+      <!-- sezione tecnologie -->
+      <!--<h2 class="titolone mt-5 text-center mb-3" data-aos="zoom-in-up">LE TECNOLOGIE ACQUISITE</h2>-->
+      <div class="container">
+        <div class="row mt-2 justify-content-center" data-aos="zoom-in-up">
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML"
+              ><img src="./assets/img/1.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS"
+              ><img src="./assets/img/2.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript"
+              ><img src="./assets/img/3.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Bootstrap"
+              ><img src="./assets/img/5.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="React"
+              ><img src="./assets/img/4.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Redux"
+              ><img src="./assets/img/6.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Typescript"
+              ><img src="./assets/img/8.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Sass"
+              ><img src="./assets/img/7.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="C#"
+              ><img src="./assets/img/9.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="ASP.NET"
+              ><img src="./assets/img/10.png" class="mt-3 tech-img" width="60" alt=""
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="MVC"
+              ><img src="./assets/img/12.png" class="mt-3 tech-img" width="90" alt="" style="margin: -18px;"
+            /></a>
+          </div>
+          <div class="col-2 col-md-1">
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="SQL"
+              ><img src="./assets/img/11.png" class="mt-3 tech-img" width="70" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- seconda sezione about -->
+
+      <section class="about-me" id="aboutme">
+        <div class="container">
+          <div style="height: 50px" id="about-me"></div>
+          <h2 class="mt-5 text-center" data-aos="zoom-in-up">CHI SONO</h2>
+          <div class="d-flex align-items-center">
+            <div class="">
+              <p class="mt-4" id="description" data-aos="zoom-in">
+                Sono un appassionato sviluppatore web che si dedica alla creazione di siti funzionali e ben progettati.
+                La mia esperienza abbraccia sia lo sviluppo web che il design, e sono costantemente alla ricerca delle
+                ultime tecnologie e metodologie per portare innovazione ed efficienza ad ogni progetto. Non mi limito
+                alla scrittura del codice: partecipo attivamente a tutto il ciclo di sviluppo, dalla pianificazione e
+                progettazione all'implementazione e al testing. I linguaggi di programmazione che utilizzo includono
+                JavaScript, Typescript e C#, e mi avvalgo di moderni framework come React, ASP.Net e MVC.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- sezione skills -->
+
+      <section class="resume" id="resu-me">
+        <div class="container">
+          <div style="height: 50px" id="resume"></div>
+          <div class="row text-center">
+            <!--<div class="col-12 col-xl-4">-->
+              <h2 class="my-5 text-center fs-4" data-aos="fade-right">SKILL ACQUISITE</h2>
+            <div class="d-flex justify-content-center align-items-center">  
+              
+              <div data-aos="fade-right">
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/1.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">HTML</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="96"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/2.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">CSS</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="87"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/3.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">JavaScript</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="78"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/4.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">React</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="93"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/5.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">Bootstrap</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="74"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/6.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">Redux</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="63"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/8.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">Typescript</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="63"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/7.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">Sass</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="65"></div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/9.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">C#</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="77"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/10.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">DOT.net</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="77"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center" >
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/12.png" alt="skill-image1" class="skill-image1 mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">MVC</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="77"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-2 text-center text-xl-start">
+                    <img src="./assets/img/11.png" alt="skill-image" class="skill-image mt-2" />
+                  </div>
+                  <div class="col-9">
+                    <h3 class="skill-name">SQL</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="82"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- --------------------seconda col-------------------- -->
+
+            <!--<div class="col-12 col-xl-4" data-aos="zoom-in">-->
+            <div class="" data-aos="zoom-in">
+              <h2 class="my-5 text-center fs-4">ISTRUZIONE</h2>
+              <!-- --- -->
+
+              <!--  -->
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h3 class="text-start edu-title">EPICODE</h3>
+                    <p class="edu-desc">FULL STACK WEB DEVELOPER</p>
+                    <span class="date">10/2023 - 05/2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h3 class="text-start edu-title">CERTIFICAZIONE LINGUA INGLESE B2 MY ENGLISH SCHOOL</h3>
+                    <span class="date">Palermo 2022</span>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline">
+                <div class="timeline-item">
+                  </div>
+                  <div class="timeline-content">
+                    <h3 class="text-start edu-title">CERTIFICAZIONE INFORMATICA EIPASS</h3>
+                    <p class="edu-desc">I fondamenti dell'ICT / Navigare e cercare informazioni sul Web / Comunicare e collaborare in Rete / IT security
+                       / Elaborazione testi / Foglio di calcolo / Presentazione.
+                    </p>
+                    <span class="date">01/2022</span>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h3 class="text-start edu-title">ISTITUTO TECNICO INDUSTRIALE VITTORIO EMANUELE III</h3>
+                    <p class="edu-desc">Perito informatico</p>
+                    <span class="date">07/2010</span>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-content">
+                    <h3 class="text-start edu-title">OPERATORE INFORMATICO EN.A.I.P.</h3>
+                    <p class="edu-desc"></p>
+                    <span class="date">2006</span>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              <!--  -->
+              <h2 class="my-5 text-center fs-4" data-aos="zoom-in">LINGUE</h2>
+              <div data-aos="zoom-in">
+                <div class="skill-container d-flex align-items-center text-center">
+                  <div class="col-10 offset-1">
+                    <h3 class="skill-name">Italiano</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill-container d-flex align-items-center text-center">
+                  <div class="col-10 offset-1">
+                    <h3 class="skill-name">Inglese</h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="56"></div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <h2 class="my-5 text-center fs-4" data-aos="zoom-in">SKILL PERSONALI</h2>
+              <div data-aos="zoom-in">
+                <div class="skill-container d-flex align-items-center">
+                  <div class="col-10 offset-1">
+                    <h3 class="skill-name">
+                      Responsabilità - Rigore - Scrupolosità - Prontezza - Resilienza - Collaborazione e sinergia - Versatilità e capacità di adattamento - Pianificazione
+                       - Originalità - Ottimizzazione - Sviluppo personale
+                    </h3>
+                    <div class="skill-bar">
+                      <div class="skill-percentage" data-skill="100"></div>
+                    </div>
+                  </div>
+                </div>
+            <!-- -------------------terza col---------------------- -->
+
+              <h2 class="my-5 text-center fs-4" data-aos="zoom-in" style="overflow: hidden">
+               I MIEI PUNTI FORTI
+              </h2>
+              <ul id="canido" class="list-unstyled" data-aos="zoom-in">
+                <li class="mb-5">
+                  <h3 class="canido-text">
+                    Sviluppo di siti web
+                  </h3>
+                </li>
+                <li class="mb-5">
+                  <h3 class="canido-text">
+                    Design dell’interfaccia utente
+                  </h3>
+                </li>
+                <li class="mb-5">
+                  <h3 class="canido-text">
+                    Applicazioni web dinamiche
+                  </h3>
+                </li>
+                <li class="mb-5">
+                  <h3 class="canido-text">
+                    Soluzioni di backend
+                  </h3>
+                </li>
+                <li class="mb-5">
+                  <h3 class="canido-text">
+                    Gestione di database
+                  </h3>
+                </li>
+              </ul>
+
+
+
+      <section class="portfolio" id="portfol-io">
+        <div class="container">
+          <div style="height: 100px" id="portfolio"></div>
+          <div class="align-items-center">
+            <div class="text-center">
+              <h2 class="mb-4 text-center" data-aos="zoom-in-right">I MIEI LAVORI</h2>
+            </div>
+
+            <!--  -->
+
+            <div class="row mx-auto mt-4">
+              <!--  -->
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card shadow border-0">
+                  <img
+                    src="assets/img/Portfolio.png"
+                    alt="balloon with an emoji face"
+                    class="card-img shadow"
+                  />
+                  <span class="card-footer shadow border-0">
+                    <span>Portfolio D'Antoni Stefano</span>
+                    <div class="d-flex">
+                      <span class="badge tech-color w-25 me-2">HTML</span>
+                      <span class="badge tech-color w-25 me-2">CSS</span>
+                      <span class="badge tech-color w-25 me-2">BS</span>
+                    
+                      
+                    </div>
+                  </span>
+                  <a href="" class="text-black" target="_blank">
+                    <span class="card-action">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card shadow border-0">
+                  <img
+                    src="assets/img/gestionalePizzeria.png"
+                    alt="balloon with an emoji face"
+                    class="card-img shadow"
+                  />
+                  <span class="card-footer shadow border-0">
+                    <span>Gestionale Pizzeria</span>
+                    <div class="d-flex">
+                      <span class="badge tech-color w-25 me-2">C#</span>
+                      <span class="badge tech-color w-25 me-2">CSS</span>
+                      <span class="badge tech-color w-25 me-2">SQL</span>
+                      <span class="badge tech-color w-25">MVC</span>
+                      
+                    </div>
+                  </span>
+                  <a href="https://github.com/StefanoEpicoder/Gestionale_Pizzeria" class="text-black" target="_blank">
+                    <span class="card-action">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card shadow border-0">
+                  <img
+                    src="assets/img/gestionaleHotel.png"
+                    alt="balloon with an emoji face"
+                    class="card-img shadow"
+                  />
+                  <span class="card-footer shadow border-0">
+                    <span>Gestionale Hotel</span>
+                    <div class="d-flex">
+                      <span class="badge tech-color w-25 me-2">C#</span>
+                      <span class="badge tech-color w-25 me-2">CSS</span>
+                      <span class="badge tech-color w-25 me-2">SQL</span>
+                      <span class="badge tech-color w-25">MVC</span>
+                    </div>
+                  </span>
+                  <a href="https://github.com/StefanoEpicoder/Gestionale_Hotel" class="text-black" target="_blank">
+                    <span class="card-action">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <!--  -->
+              
+              <!--  -->
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card shadow border-0">
+                  <img
+                    src="assets/img/gestionalePoste.png"
+                    alt="balloon with an emoji face"
+                    class="card-img shadow"
+                  />
+                  <span class="card-footer shadow border-0">
+                    <span>Gestionale Poste</span>
+                    <div class="d-flex">
+                      <span class="badge tech-color w-25 me-2">C#</span>
+                      <span class="badge tech-color w-25 me-2">CSS</span>
+                      <span class="badge tech-color w-25 me-2">SQL</span>
+                      <span class="badge tech-color w-25">MVC</span>
+                    </div>
+                  </span>
+                  <a href="https://github.com/StefanoEpicoder/Backend_Poste" class="text-black" target="_blank">
+                    <span class="card-action">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card shadow border-0">
+                  <img
+                    src="assets/img/gestionalePolizia.png"
+                    alt="balloon with an emoji face"
+                    class="card-img shadow"
+                  />
+                  <span class="card-footer shadow border-0">
+                    <span>Gestionale Polizia</span>
+                    <div class="d-flex">
+                      <span class="badge tech-color w-25 me-2">C#</span>
+                      <span class="badge tech-color w-25 me-2">SQL</span>
+                      <span class="badge tech-color w-25">MVC</span>
+                    </div>
+                  </span>
+                  <a href="https://github.com/StefanoEpicoder/BackEnd_Gestionale_Polizia" class="text-black" target="_blank">
+                    <span class="card-action">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card shadow border-0">
+                  <img
+                    src="assets/img/SpotifyInReact.png"
+                    class="card-img shadow"
+                  />
+                  <span class="card-footer shadow border-0">
+                    <span>Spotify in React</span>
+                    <div class="d-flex">
+                      <span class="badge tech-color w-25 me-2">REACT</span>
+                      <span class="badge tech-color w-25 me-2">BS</span>
+                    </div>
+                  </span>
+                  <a href="https://github.com/StefanoEpicoder/Spotify-in-react" class="text-black" target="_blank">
+                    <span class="card-action">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card shadow border-0">
+                  <img
+                    src="assets/img/meteoReact.png"
+                    alt="balloon with an emoji face"
+                    class="card-img shadow"
+                  />
+                  <span class="card-footer shadow border-0">
+                    <span>Meteo in React</span>
+                    <div class="d-flex">
+                      <span class="badge tech-color w-25 me-2">REACT</span>
+                      <span class="badge tech-color w-25 me-2">BS</span>
+                      
+                    </div>
+                  </span>
+                  <a href="https://github.com/StefanoEpicoder/verifica-settimana-2-react" class="text-black" target="_blank">
+                    <span class="card-action">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                <div class="card shadow border-0">
+                  <img
+                    src="assets/img/NetfilxReact.png"
+                    alt="balloon with an emoji face"
+                    class="card-img shadow"
+                  />
+                  <span class="card-footer shadow border-0">
+                    <span>Netflix in React</span>
+                    <div class="d-flex">
+                      <span class="badge tech-color w-25 me-2">REACT</span>
+                      <span class="badge tech-color w-25 me-2">BS</span>
+                      <span class="badge tech-color w-25 me-2">CSS</span>
+                    </div>
+                  </span>
+                  <a href="https://github.com/StefanoEpicoder/Verifica_React_Week_1" class="text-black" target="_blank">
+                    <span class="card-action">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="50"
+                        height="50"
+                        fill="currentColor"
+                        class="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <!--  -->
+
+        </div>
+      </section>
+      <!-- sezione contatti  -->
+
+      
+      <!--  -->
+    </div>
+    <footer class="mt-5 bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center my-5">
+            <h3 class="fs-6 text-secondary">© 2024 Stefano D'Antoni</h3>
+            <h3 class="fs-6 mt-3 text-secondary">All rights reserved</h3>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button id="bring-me-up" style="display: none">
+      <i class="bi bi-chevron-compact-up"></i>
+    </button>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
